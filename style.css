@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    background-color: #B7BAC3;
+    min-height: 100vh;
+    border : 10px solid #3A3134;
+  
+}
+/***************************************top section***********************************/
+.top_section{
+    /*to display content side by side*/
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+}
+.top_section h1{
+    font-family: poppins , sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+     
+}
+.top_section h4{
+    font-family: poppins , sans-serif;
+    font-size: 20px;
+    text-align: end;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.image_container{
+    border-radius: 50px;
+    overflow: hidden;
+}
+/*if we put , btw two selectors it means that both selectors will be selected*/
+.image_container , img {
+    width: 300px;
+    height: 320px;
+    
+}
+/*****************************************intro**********************************************/
+.intro{
+    margin-top: 50px;
+}
+.intro h2{
+    font-family: poppins , sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.intro p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    letter-spacing: 0.2px;
+    line-height: 25px;
+}
+.points{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.points h2{
+    font-family: poppins , sans-serif;
+    font-size: 40px;
+}
+.points ol{
+    line-height: 25px;
+    letter-spacing: 0.3px;
+    text-align: justify;
+}
+.footer{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: end;
+}
+a{
+    color:#3A3134;
+}
